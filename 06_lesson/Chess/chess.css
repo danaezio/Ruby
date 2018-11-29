@@ -1,0 +1,15 @@
+h1 {margin-left: 160px; font-size: 42pt}
+
+.black-bg-chess-piece {
+    background: bisque;
+    border: 1px solid black;
+    height: 95px;
+    width: 95px
+}
+
+.white-bg-chess-piece {
+    background: lightcyan;
+    border: 1px solid black;
+    height: 95px;
+    width: 95px;
+}
