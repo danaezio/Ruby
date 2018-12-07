@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chess Game</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <ul class="menu">
+    <li><%= link_to 'Главная', root_path %></li>
+    <li><%= link_to 'Чемпионы', champions_path %></li>
+    <li><%= link_to 'Игра', game_path%></li>
+  </ul>
+    <%= yield %>
+</html>
