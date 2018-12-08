@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Chess Game</title>
+    <title>Chess</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,9 +11,11 @@
 
   <body>
   <ul class="menu">
-    <li><%= link_to 'Главная', root_path %></li>
-    <li><%= link_to 'Чемпионы', champions_path %></li>
-    <li><%= link_to 'Игра', game_path%></li>
+    <li><%= link_to "Home", root_path %></li>
+    <li><%= link_to "Игра", game_path %></li>
+    <li><%= link_to "Чемпионы", champions_path %></li>
+    <li><%= link_to "Правила", rules_path %></li>
   </ul>
     <%= yield %>
+  </body>
 </html>

@@ -1,21 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95caee12-918d-4469-a20c-c10219880d39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/navigation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/controls/champions.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/controls/game.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/controls/index.html.erb" afterDir="false" />
+    <list default="true" id="06114bf0-9068-4e69-847b-3d9581d21199" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bin/spring" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/spring.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/.idea/.generators" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/.idea/.rakeTasks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/.idea/Chess.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/.ruby-version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/Rakefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/assets/config/manifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/assets/images/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/assets/javascripts/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/assets/javascripts/cable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/assets/javascripts/channels/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/assets/javascripts/controls.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/assets/stylesheets/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/assets/stylesheets/controls.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/assets/stylesheets/navigation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/channels/application_cable/channel.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/channels/application_cable/connection.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/controllers/application_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/controllers/concerns/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/controllers/controls_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/helpers/application_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/helpers/controls_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/jobs/application_job.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/mailers/application_mailer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/models/application_record.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/models/concerns/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/views/layouts/application.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/views/layouts/mailer.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/app/views/layouts/mailer.text.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/bin/bundle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/bin/rails" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/bin/rake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/bin/setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/bin/update" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/bin/yarn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config.ru" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/application.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/boot.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/cable.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/credentials.yml.enc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/database.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/environment.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/environments/development.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/environments/production.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/environments/test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/initializers/application_controller_renderer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/initializers/assets.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/initializers/backtrace_silencers.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/initializers/content_security_policy.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/initializers/cookies_serializer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/initializers/filter_parameter_logging.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/initializers/inflections.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/initializers/mime_types.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/initializers/wrap_parameters.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/locales/en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/puma.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/routes.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/config/storage.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/db/development.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/db/seeds.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/lib/assets/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/lib/tasks/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/log/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/public/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/public/422.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/public/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/public/apple-touch-icon-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/public/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/storage/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/test/application_system_test_case.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/test/controllers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/test/controllers/controls_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/test/fixtures/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/test/fixtures/files/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/test/helpers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/test/integration/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/test/mailers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/test/models/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/test/system/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/test/test_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/tmp/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chess_C/vendor/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Chess.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Chess.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ruby-version" beforeDir="false" afterPath="$PROJECT_DIR$/.ruby-version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/chess.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Chess_C/Assets/chess.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/chess.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Chess_C/Assets/chess.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/registration.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/controls/rules.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/user_class.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../Chess_C/Assets/user_class.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/champions/Alex_Alexin.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/champions/Alex_Alexin.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/champions/Mikhail_Botvinnik.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/champions/Mikhail_Botvinnik.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/champions/Vasiliy_Smyslov.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/champions/Vasiliy_Smyslov.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/controls.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/controls.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/controls_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/controls_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/controls/champions.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/controls/champions.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/controls/game.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/controls/game.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/controls/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/controls/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rails" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rails" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rake" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boot.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/boot.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/credentials.yml.enc" beforeDir="false" afterPath="$PROJECT_DIR$/config/credentials.yml.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/development.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../Chess_C/Assets/registration.rb" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.bundle/" />
-    <ignored path="$PROJECT_DIR$/components/" />
-    <ignored path="$PROJECT_DIR$/log/" />
-    <ignored path="$PROJECT_DIR$/public/system/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <ignored path="$PROJECT_DIR$/vendor/bundle/" />
-    <ignored path="$PROJECT_DIR$/vendor/cache/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,30 +135,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/navigation.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="85">
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -54,35 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/controls_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/controls/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/controls/champions.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="60" selection-start-column="60" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/controls/game.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-62">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="340">
+              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -90,8 +157,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/controls.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            <state relative-caret-position="351">
+              <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/controls/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/controls/game.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-696">
+              <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/controls/champions.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/controls/rules.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="241" lean-forward="true" selection-start-line="6" selection-start-column="241" selection-end-line="6" selection-end-column="241" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/navigation.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -101,33 +222,39 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Ruby Class Template" />
         <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/controls/game.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/controls/index.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/controls/champions.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/controls.scss" />
-        <option value="$PROJECT_DIR$/app/controllers/controls_controller.rb" />
+        <option value="$PROJECT_DIR$/chess.css" />
+        <option value="$PROJECT_DIR$/chess.html" />
+        <option value="$PROJECT_DIR$/user_class.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/navigation.css" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/controls_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/controls/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/controls.scss" />
+        <option value="$PROJECT_DIR$/app/views/controls/rules.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/controls/game.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/controls/champions.html.erb" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="25" />
-    <option name="width" value="839" />
-    <option name="height" value="1051" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="699" />
+    <option name="y" value="23" />
+    <option name="width" value="741" />
+    <option name="height" value="805" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -135,6 +262,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,23 +316,10 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="controls" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Chess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chess" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chess" type="462c0819:PsiDirectoryNode" />
-              <item name="Assets" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -214,11 +329,12 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/assets/images" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/views/controls" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -336,30 +452,32 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="95caee12-918d-4469-a20c-c10219880d39" name="Default Changelist" comment="" />
-      <created>1544045167070</created>
+      <changelist id="06114bf0-9068-4e69-847b-3d9581d21199" name="Default Changelist" comment="" />
+      <created>1543519102361</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1544045167070</updated>
-      <workItem from="1544045168267" duration="6207000" />
+      <updated>1543519102361</updated>
+      <workItem from="1543519103631" duration="7134000" />
+      <workItem from="1544031093880" duration="251000" />
+      <workItem from="1544045144283" duration="11000" />
+      <workItem from="1544228676117" duration="509000" />
+      <workItem from="1544270211738" duration="1524000" />
+      <workItem from="1544289081419" duration="381000" />
+      <workItem from="1544289809606" duration="308000" />
+      <workItem from="1544292053031" duration="9321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6207000" />
+    <option name="totallyTimeSpent" value="19439000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15581644" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11516452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -367,90 +485,99 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32819074" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32959327" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32959327" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$USER_HOME$" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/chess.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1638">
-          <caret line="91" column="10" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="91" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/chess.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/controls/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/controls_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/navigation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/black/7.png" />
+    <entry file="file://$PROJECT_DIR$/black/6.png" />
+    <entry file="file://$PROJECT_DIR$/black/5.png" />
+    <entry file="file://$PROJECT_DIR$/black/3.png" />
+    <entry file="file://$PROJECT_DIR$/black/1.png" />
+    <entry file="file://$PROJECT_DIR$/black/2.png" />
+    <entry file="file://$PROJECT_DIR$/black/4.png" />
+    <entry file="file://$PROJECT_DIR$/chess.html" />
+    <entry file="file://$PROJECT_DIR$/chess.css" />
+    <entry file="file://$PROJECT_DIR$/user_class.rb" />
+    <entry file="file://$PROJECT_DIR$/registration.rb" />
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/controls.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/controls/game.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="351">
+          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/controls/champions.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="60" selection-start-column="60" selection-end-column="60" />
+        <state relative-caret-position="68">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/controls_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/controls/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/controls/game.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-696">
+          <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/controls/rules.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="241" lean-forward="true" selection-start-line="6" selection-start-column="241" selection-end-line="6" selection-end-column="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/navigation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>

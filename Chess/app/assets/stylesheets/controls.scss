@@ -17,24 +17,47 @@ h3{
   padding: 10px;
   font-size: 24pt;
 }
+h4 {
+  text-align: center;
+  font-size: 19pt;
+}
 
 p1{
-  font-size: 17pt;
+  font-size: 16pt;
+  text-align: center;
 }
 
-.black-bg-chess-piece {
-  background: bisque;
-  border: 1px solid black;
-  height: 95px;
-  width: 95px;
+p2{
+  text-align: center;
+  border: 1px solid #2E2F30;
+  padding: 10px;
+  font-size: 10pt;
 }
 
-.white-bg-chess-piece {
-  background: lightcyan;
-  border: 1px solid black;
-  height: 95px;
-  width: 95px;
+td {
+   font-size: 50px;
+  border: 2px solid black;
+  height: 80px;
+  width: 80px;
+  text-align: center;
 }
 
+tr:nth-child(even) td:nth-child(even){
+  background-color: lightcyan;
+}
 
+tr:nth-child(even) td:nth-child(odd){
+  background-color: bisque;
+}
 
+tr:nth-child(odd) td:nth-child(odd){
+  background-color: lightcyan;
+}
+
+tr:nth-child(odd) td:nth-child(even){
+  background-color: bisque;
+}
+
+td:hover {
+  border: 2px solid #B00100;
+}

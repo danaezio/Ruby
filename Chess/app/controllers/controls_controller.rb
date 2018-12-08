@@ -1,4 +1,6 @@
 class ControlsController < ApplicationController
+  before_action :set_champions
+
   def index
 
   end
@@ -9,5 +11,13 @@ class ControlsController < ApplicationController
 
   def champions
 
+  end
+
+  def rules
+
+  end
+
+  def set_champions
+    @champions ||= %w(Алёхин Ботвинник Смыслов).sample
   end
 end
