@@ -1,0 +1,8 @@
+<h3> <%= "Профиль игрока " + @player.name + " " + @player.lastname %></h3>
+<br>
+<div class="player-list">
+  <p class ="Reg_Page_Font">Дата рождения/смерти</p>
+  <p class="Reg_Page_Font"> <%= @player.birth_year.to_s + "-" + @player.death_year.to_s %> </p>
+  <p class="Reg_Page_Font">Дата чемпионства:</p>
+  <p class="Reg_Page_Font"> <%= @player.champ_year_start.to_s + "-" + @player.champ_year_end.to_s %> </p>
+</div>

@@ -1,5 +1,5 @@
 class ControlsController < ApplicationController
-  before_action :set_champions
+  before_action :set_players
 
   def index
 
@@ -10,14 +10,21 @@ class ControlsController < ApplicationController
   end
 
   def champions
-
+    @players = Player.all
   end
 
   def rules
 
   end
 
-  def set_champions
-    @champions ||= %w(Алёхин Ботвинник Смыслов).sample
+  def show
+    @player = Player.find_by(id: params[:id])
+    if @player.nil?
+      redirect_to root_path
+    end
+  end
+
+  def set_players
+    @players = Player.all
   end
 end

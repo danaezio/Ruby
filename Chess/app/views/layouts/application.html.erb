@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Chess</title>
+    <title> <%= content_for?(:title) ? content_for(:title) : "Chess" %> </title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -9,13 +9,14 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-  <ul class="menu">
-    <li><%= link_to "Home", root_path %></li>
-    <li><%= link_to "Игра", game_path %></li>
-    <li><%= link_to "Чемпионы", champions_path %></li>
-    <li><%= link_to "Правила", rules_path %></li>
-  </ul>
+  <nav class="top-menu">
+    <ul class="menu-main">
+     <li><%= link_to "Home", root_path, class: "text_font" %></li>
+     <li><%= link_to "Игра", game_path, class: "text_font" %></li>
+     <li><%= link_to "Чемпионы", champions_path, class: "text_font" %></li>
+     <li><%= link_to "Правила", rules_path, class: "text_font" %></li>
+    </ul>
+  </nav>
     <%= yield %>
   </body>
 </html>

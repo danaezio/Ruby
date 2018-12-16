@@ -1,6 +1,26 @@
+<% title("Home") %>
 <h2>Привет! Добро пожаловать в игру <font size="6" color="#ff7f50" face="arial">ШАХМАТЫ</font>!</h2>
 <br>
+<h4> Список игроков:</h4>
+<div class="player-list">
+  <ol>
+    <% @players.each do |p| %>
+
+      <li>
+        <%= link_to p.name + " " + p.lastname , p%>
+      </li>
+
+    <% end %>
+  </ol>
+</div>
 <br>
-<p1>Введите пожалуйста своё имя: </p1>
 <br>
-<%= link_to 'Играть', game_path %>
+
+<p class="Reg_Page_Font"> Регистрация нового пользователя </p>
+<div class="player-list">
+<p class="Reg_Page_Font">Введите своё имя: </p>
+  <input>
+<br>
+  <p class="Reg_Page_Font">Введите свою фамилию: </p>
+  <input>
+</div>

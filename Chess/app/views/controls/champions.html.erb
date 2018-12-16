@@ -1,5 +1,12 @@
+<% title("Чемпионы") %>
 <h3>Эта страница посвящена великим шахматным чемпионам.</h3>
-<%= image_tag 'champions/Alex_Alexin.jpeg'%>
-<%= image_tag "champions/Mikhail_Botvinnik.jpg"%>
-<%= image_tag "champions/Vasiliy_Smyslov.jpg"%>
-<br/>
+
+<% @players.each do |p| %>
+  <div class="player-list">
+  <h4> <%= p.name + " "  + p.lastname %> </h4>
+  <p class ="Reg_Page_Font">Дата рождения/смерти</p>
+  <p class="Reg_Page_Font"> <%= p.birth_year.to_s + "-" + p.death_year.to_s %> </p>
+  <p class="Reg_Page_Font">Дата чемпионства:</p>
+  <p class="Reg_Page_Font"> <%= p.champ_year_start.to_s + "-" + p.champ_year_end.to_s %> </p>
+  </div>
+<% end %>

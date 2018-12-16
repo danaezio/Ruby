@@ -1,3 +1,32 @@
+.Reg_Page_Font{
+  text-align: center;
+  font-size: 15pt;
+}
+
+.Rules_Page_Font{
+  text-align: center;
+  border: 1px solid #2E2F30;
+  padding: 10px;
+  font-size: 10pt;
+  margin: 0px 400px;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.player-list{
+  margin: 0px 500px;
+  border: 5px solid seagreen;
+}
+
+.player-list li {
+  margin: 20px 0px;
+}
+
 h1{
   text-align: center;
   border: 1px solid #B00100;
@@ -22,17 +51,7 @@ h4 {
   font-size: 19pt;
 }
 
-p1{
-  font-size: 16pt;
-  text-align: center;
-}
 
-p2{
-  text-align: center;
-  border: 1px solid #2E2F30;
-  padding: 10px;
-  font-size: 10pt;
-}
 
 td {
    font-size: 50px;

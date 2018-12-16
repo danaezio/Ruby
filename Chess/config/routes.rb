@@ -4,5 +4,6 @@ Rails.application.routes.draw do
     root 'controls#index'
     get '/champions', to: 'controls#champions'
     get '/rules', to: 'controls#rules'
+    get '/player/:id', to: 'controls#show', as: 'player'
   end
 end
